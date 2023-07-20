@@ -264,9 +264,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.features {
+  padding: 120px 0;
+}
 .features .list {
   display: flex;
-  padding: 120px 0;
   gap: 24px;
 }
 .list-elements {
