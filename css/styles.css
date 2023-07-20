@@ -304,5 +304,8 @@ img {
   gap: 24px;
 }
 .team-name {
-  margin: 32px 0;
+  padding: 32px 0;
+}
+.team .list-image {
+  border-radius: 0px 0px 4px 4px;
 }
