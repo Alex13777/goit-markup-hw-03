@@ -212,12 +212,16 @@ a {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-list:hover,
 .button-list:focus,
 .button-list:active {
   background-color: #404bbf;
   color: var(--whitecolor);
+  border: 1px solid transparent;
 }
 .list .link {
   text-decoration: none;
@@ -314,4 +318,20 @@ img {
 }
 .footer .logo {
   max-width: 264px;
+}
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio .list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.portfolio .list-images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
