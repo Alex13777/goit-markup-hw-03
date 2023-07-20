@@ -9,12 +9,19 @@ body {
   color: #434455;
   background-color: var(--whitecolor);
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 ul,
 ol,
 a {
   list-style-type: none;
   text-decoration: none;
+}
+header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav .link {
   font-family: "Raleway", sans-serif;
@@ -29,6 +36,7 @@ a {
 .studio {
   color: var(--primarycolor);
 }
+
 .nav .list .link {
   font-family: inherit;
   font-size: 16px;
@@ -180,4 +188,46 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1158px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features .list {
+  display: flex;
 }
