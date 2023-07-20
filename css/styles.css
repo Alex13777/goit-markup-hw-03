@@ -180,6 +180,7 @@ a {
 }
 .footer {
   background-color: var(--primarycolor);
+  padding: 100px 0;
 }
 .footer .link {
   font-family: "Raleway", sans-serif;
@@ -189,6 +190,8 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--secondarycolor);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .studia {
   color: #f4f4fd;
@@ -308,4 +311,7 @@ img {
 }
 .team .list-image {
   border-radius: 0px 0px 4px 4px;
+}
+.footer .logo {
+  max-width: 264px;
 }
